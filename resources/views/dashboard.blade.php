@@ -1,10 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h2 class="fs-4 text-secondary my-4">
-        {{ __('Dashboard') }}
-    </h2>
+{{-- <div class="container"> --}}
     <div class="row justify-content-center">
         <div class="col">
             <div class="card">
@@ -21,15 +18,31 @@
                     <table class="table">
                         <thead>
                           <tr>
-                            <th scope="col">(Cliente)</th>
-                            <th scope="col">dato 1</th>
-                            <th scope="col">dato 2</th>
-                            <th scope="col">dato 3</th>
+                            <th scope="col" class="fs-5">Name and Surname</th>
+                            <th scope="col">P & L</th>
+                            <th scope="col">P & L (%)</th>
+                            <th scope="col">Ytd</th>
+                            <th scope="col">Dev St.</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">xxx</th>
+                            <th scope="row">Davide Tarantino</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Luigi Monaco</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Aldo Jacopo Virno</th>
+                            <td>xxx</td>
                             <td>xxx</td>
                             <td>xxx</td>
                             <td>xxx</td>
@@ -39,21 +52,11 @@
                             <td>xxx</td>
                             <td>xxx</td>
                             <td>xxx</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">xxx</th>
-                            <td>xxx</td>
-                            <td>xxx</td>
                             <td>xxx</td>
                           </tr>
                           <tr>
                             <th scope="row">xxx</th>
                             <td>xxx</td>
-                            <td>xxx</td>
-                            <td>xxx</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">xxx</th>
                             <td>xxx</td>
                             <td>xxx</td>
                             <td>xxx</td>
@@ -64,5 +67,5 @@
             </div>
         </div>
     </div>
-</div>
+{{-- </div> --}}
 @endsection
