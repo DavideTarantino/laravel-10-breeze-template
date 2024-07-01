@@ -8,7 +8,7 @@
     <div class="row justify-content-center">
         <div class="col">
             <div class="card">
-                <div class="card-header">{{ __('User Dashboard') }}</div>
+                <div class="card-header">{{ __('Overview') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -17,7 +17,49 @@
                     </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">(Cliente)</th>
+                            <th scope="col">dato 1</th>
+                            <th scope="col">dato 2</th>
+                            <th scope="col">dato 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">xxx</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">xxx</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">xxx</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">xxx</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">xxx</th>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                            <td>xxx</td>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
         </div>
